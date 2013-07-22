@@ -1,4 +1,6 @@
 SampleApp::Application.routes.draw do
+  get "layout/home"
+  get "layout/application"
   get "static_pages/about"
   get "static_pages/home"
   get "static_pages/help"
